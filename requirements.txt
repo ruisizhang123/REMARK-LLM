@@ -1,0 +1,8 @@
+torch
+numpy
+matplotlib
+datasets
+nltk
+evaluate
+safetensors
+sentencepiece
