@@ -31,10 +31,11 @@ $ bash bash/run.sh val
 If you found our code/paper helpful, please kindly cite:
 
 ```latex
-@article{zhang2023remark,
-  title={Remark-llm: A robust and efficient watermarking framework for generative large language models},
+@inproceedings{zhang2024remark,
+  title={$\{$REMARK-LLM$\}$: A Robust and Efficient Watermarking Framework for Generative Large Language Models},
   author={Zhang, Ruisi and Hussain, Shehzeen Samarah and Neekhara, Paarth and Koushanfar, Farinaz},
-  journal={arXiv preprint arXiv:2310.12362},
-  year={2023}
+  booktitle={33rd USENIX Security Symposium (USENIX Security 24)},
+  pages={1813--1830},
+  year={2024}
 }
 ```
