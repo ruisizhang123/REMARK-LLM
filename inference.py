@@ -310,7 +310,7 @@ def main():
     #model = AutoModelForSeq2SeqLM.from_pretrained(model_name_or_path, config=config)
     model.load_state_dict(torch.load(os.path.join(args.load_path, 'model.pt')))
     
-    extractor = TransformerClassifier(d_model, nhead, num_layers, dim_feedforward, num_classes, extract_layer)
+    extractor = TransformerClassifier(d_model, nhead, num_layers, num_classes)
     extractor.load_state_dict(torch.load(os.path.join(args.load_path, 'extractor.pt')))
     mapper = Mapping(config.vocab_size, d_model)
     mapper.load_state_dict(torch.load(os.path.join(args.load_path, 'mapper.pt')))
